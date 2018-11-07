@@ -224,7 +224,6 @@ def conv_fc():
 
             print("训练第%d步,准确率为:%f" % (i, sess.run(accuracy, feed_dict={x: mnist_x, y_true: mnist_y})))
 
-
     return None
 
 
